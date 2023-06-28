@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "967982157250",
+    "project_id": "freinds-cafe",
+    "storage_bucket": "freinds-cafe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967982157250:android:6d056cd6de1891ba1cda5b",
+        "android_client_info": {
+          "package_name": "com.example.freindscafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYpNU3fL1teziKQRJVTZhDDx4B1bM18Uw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

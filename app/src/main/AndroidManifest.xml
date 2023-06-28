@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.hardware.usb.host" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FreindsCafe"
+        tools:targetApi="33" >
+        <activity
+            android:name=".foddsales"
+            android:exported="false" />
+        <activity
+            android:name=".license"
+            android:exported="false" />
+        <activity
+            android:name=".table2"
+            android:exported="false"
+            android:theme="@style/noactionbar"/>
+        <activity
+            android:name=".table3"
+            android:exported="false"
+            android:theme="@style/noactionbar"/>
+        <activity
+            android:name=".table4"
+            android:exported="false"
+            android:theme="@style/noactionbar"/>
+        <activity
+            android:name=".table5"
+            android:exported="false"
+            android:theme="@style/noactionbar"/>
+        <activity
+            android:name=".table6"
+            android:exported="false"
+            android:theme="@style/noactionbar"/>
+
+        <activity
+            android:name=".test"
+            android:exported="false" />
+        <activity
+            android:name=".table1"
+            android:exported="false"
+            android:label="@string/title_activity_table1"
+            android:theme="@style/noactionbar" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".homepage"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".login"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".table"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".welcome"
+            android:exported="true"
+            android:theme="@style/Theme.FreindsCafeNo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
